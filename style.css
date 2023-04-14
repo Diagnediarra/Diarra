@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Chivo+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Chivo+Mono:wght@200;600&display=swap');
+.marron{
+    background-color: burlywood;
+    width: 70%;
+    height: 80vh;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    background-image: url('images/paysage.jpg');
+    width: 50%;
+    height: 60vh;
+    background-size: cover;
+}
+.right{
+    background-color: palevioletred;
+    width: 28%;
+    height:60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Chivo Mono', monospace;
+    color: white;
+    text-align: center;
+}
+#h4{
+    font-family: 'Barlow', sans-serif;
+font-family: 'Chivo Mono', monospace;
+color: white;
+}
